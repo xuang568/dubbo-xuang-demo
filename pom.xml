@@ -12,6 +12,7 @@
         <module>dubbo-xuang-api</module>
         <module>dubbo-xuang-consumer</module>
         <module>dubbo-xuang-provide</module>
+        <module>xuang-spring-redis</module>
     </modules>
 
     <dependencyManagement>

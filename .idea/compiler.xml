@@ -9,6 +9,7 @@
         <module name="dubbo-xuang-api" />
         <module name="dubbo-xuang-consumer" />
         <module name="dubbo-xuang-provide" />
+        <module name="xuang-spring-redis" />
       </profile>
     </annotationProcessing>
   </component>
