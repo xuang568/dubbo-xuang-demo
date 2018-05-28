@@ -34,7 +34,7 @@ public class Provider {
 
 
         System.out.println(redisMannager.getName());
-        Boolean flag = redisMannager.rateControlByRedisLua("xuang", 10, 50);
+        Boolean flag = redisMannager.rateControlByRedisLua("xuang89", 2, 10);
 
         System.out.println(flag);
 
