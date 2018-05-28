@@ -21,7 +21,7 @@ public class RedisMannager {
 
     private static String scriptLua =  "local times = redis.call('incr',KEYS[1])\n"
             +"if tonumber(times) == 1 then\n"
-            +"redis.call('expire',KEYS[1],KEYS[2])\n"
+            +"redis.call('expire',KEYS[1],ARGV[1])\n"
             +"end\n"
             +"return times\n";
 
